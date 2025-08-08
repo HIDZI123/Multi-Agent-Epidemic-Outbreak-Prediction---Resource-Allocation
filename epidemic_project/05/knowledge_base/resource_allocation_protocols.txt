@@ -1,0 +1,32 @@
+
+RESOURCE ALLOCATION PROTOCOLS
+
+1. VENTILATOR ALLOCATION
+- Priority scoring based on clinical criteria
+- Regular reassessment every 48-72 hours
+- Consider short-term survivability
+- Maintain ethical review committee
+
+2. MEDICATION DISTRIBUTION
+- Prioritize critical care medications
+- Implement rationing protocols if supplies limited
+- Coordinate with pharmaceutical suppliers
+- Monitor expiration dates and rotate stock
+
+3. PPE ALLOCATION
+- Prioritize frontline healthcare workers
+- Implement conservation strategies
+- Extended use protocols for masks and gowns
+- Regular supply chain monitoring
+
+4. STAFFING ALLOCATION
+- Deploy staff based on expertise and need
+- Implement buddy system for inexperienced staff
+- Cross-training programs for surge capacity
+- Mental health support for healthcare workers
+
+5. INTER-HOSPITAL TRANSFERS
+- Transfer patients when local capacity exceeded
+- Coordinate through regional coordination center
+- Consider patient stability for transport
+- Maintain communication with receiving facilities

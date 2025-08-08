@@ -1,0 +1,26 @@
+
+HOSPITAL CAPACITY MANAGEMENT PROTOCOL
+
+1. CAPACITY MONITORING
+- Monitor bed occupancy rates hourly
+- Maintain real-time dashboard of available beds
+- Track ICU and general ward capacity separately
+- Alert system when occupancy exceeds 80%
+
+2. SURGE CAPACITY ACTIVATION
+- Level 1 (80% capacity): Cancel elective procedures
+- Level 2 (90% capacity): Implement early discharge protocols
+- Level 3 (95% capacity): Activate overflow areas
+- Level 4 (100% capacity): Implement crisis standards of care
+
+3. RESOURCE ALLOCATION
+- Prioritize beds based on medical acuity
+- Maintain reserve capacity for emergencies
+- Coordinate with regional hospital network
+- Consider patient transfer to less affected facilities
+
+4. STAFFING CONSIDERATIONS
+- Cross-train staff for multiple departments
+- Implement extended shift patterns during surges
+- Coordinate with temporary staffing agencies
+- Prioritize staff health and wellness
