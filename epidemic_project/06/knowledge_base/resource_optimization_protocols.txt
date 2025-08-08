@@ -1,0 +1,20 @@
+
+RESOURCE OPTIMIZATION PROTOCOLS
+
+TRIGGER: Multiple hospitals > 85% capacity
+ACTIONS:
+- COORDINATE inter_hospital_transfer (effectiveness: 0.25, cost: 100)
+- SHARE critical resources (effectiveness: 0.15, cost: 75)
+- OPTIMIZE patient distribution
+
+TRIGGER: Predicted ventilator shortage
+ACTIONS:
+- IMPLEMENT resource_rationing (effectiveness: 0.20, cost: 200)
+- PRIORITIZE clinical protocols  
+- COORDINATE regional sharing
+
+TRIGGER: Staff shortages predicted
+ACTIONS:
+- CROSS_TRAIN personnel (effectiveness: 0.15, cost: 100)
+- ACTIVATE volunteer programs (effectiveness: 0.10, cost: 50)
+- ADJUST shift patterns

@@ -1,0 +1,20 @@
+
+ACTIONABLE HOSPITAL CAPACITY PROTOCOLS
+
+TRIGGER: Hospital occupancy > 80%
+ACTIONS:
+- ACTIVATE elective_surgery_ban (effectiveness: 0.25, cost: 100)
+- INITIATE inter_hospital_transfer (effectiveness: 0.15, cost: 50)
+- ALERT staff for extended shifts
+
+TRIGGER: Hospital occupancy > 90%  
+ACTIONS:
+- ACTIVATE crisis_standards (effectiveness: 0.20, cost: 200)
+- IMPLEMENT resource_rationing (effectiveness: 0.10, cost: 150)
+- COORDINATE regional bed sharing
+
+TRIGGER: Predicted demand > capacity in 3 days
+ACTIONS:
+- PREEMPTIVE elective_surgery_ban (effectiveness: 0.30, cost: 80)
+- PREPARE overflow facilities
+- REQUEST additional staffing

@@ -1,0 +1,20 @@
+
+COMMUNITY INTERVENTION PROTOCOLS
+
+TRIGGER: Untreated infected > 100 OR transmission rate > 0.4
+ACTIONS:  
+- IMPLEMENT social_distancing (effectiveness: 0.35, cost: 300)
+- ACTIVATE mask_mandate (effectiveness: 0.20, cost: 100)
+- ENHANCE contact tracing
+
+TRIGGER: Hospital occupancy > 85% AND community spread high
+ACTIONS:
+- IMPLEMENT school_closure (effectiveness: 0.25, cost: 400) 
+- LIMIT large gatherings (effectiveness: 0.15, cost: 200)
+- INCREASE public messaging
+
+TRIGGER: Predicted peak > hospital capacity
+ACTIONS:
+- EMERGENCY social_distancing (effectiveness: 0.50, cost: 500)
+- MANDATORY mask_mandate (effectiveness: 0.30, cost: 150)
+- ACTIVATE emergency response
