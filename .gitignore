@@ -1,0 +1,7 @@
+/.venv
+/epidemic_project/10 GUI/__pycache__
+/epidemic_project/10 GUI/core/__pycache__
+/epidemic_project/10 GUI/ui/__pycache__
+/epidemic_project/10 GUI/orchestrators/__pycache__
+/.pytest_cache
+/epidemic_project/10 GUI/.streamlit
