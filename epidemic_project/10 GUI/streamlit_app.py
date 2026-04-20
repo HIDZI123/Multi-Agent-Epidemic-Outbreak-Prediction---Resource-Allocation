@@ -100,7 +100,7 @@ if st.button("Run Simulation"):
         if decision_df.empty:
             st.info("No policy activations were triggered in this run.")
         else:
-            st.dataframe(decision_df.tail(30), use_container_width=True)
+            st.dataframe(decision_df.tail(30), width='stretch')
 
         csv_chain = chain_results_df.to_csv(index=True).encode("utf-8")
         st.download_button(
@@ -125,7 +125,7 @@ if st.button("Run Simulation"):
         if trace_df.empty:
             st.info("No graph traces were recorded in this run.")
         else:
-            st.dataframe(trace_df.tail(30), use_container_width=True)
+            st.dataframe(trace_df.tail(30), width='stretch')
 
         csv_graph = graph_results_df.to_csv(index=True).encode("utf-8")
         st.download_button(
@@ -160,7 +160,7 @@ if st.button("Run Simulation"):
                 ],
             }
         )
-        st.dataframe(comparison, use_container_width=True)
+        st.dataframe(comparison, width='stretch')
 
 st.markdown("---")
 st.markdown("### How this maps to Notebooks 08 and 09")
