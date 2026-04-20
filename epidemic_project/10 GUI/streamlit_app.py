@@ -163,9 +163,8 @@ if st.button("Run Simulation"):
         st.dataframe(comparison, use_container_width=True)
 
 st.markdown("---")
-st.markdown("### How this maps to your project")
+st.markdown("### How this maps to Notebooks 08 and 09")
 st.markdown(
     "- LangChain panel mirrors Notebook 08 agent-style decision cycles and decision log behavior.\n"
     "- LangGraph panel mirrors Notebook 09 explicit node routing with traceability.\n"
-    "- Original Notebook 08 and Notebook 09 remain unchanged."
 )
